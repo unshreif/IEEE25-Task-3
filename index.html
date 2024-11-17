@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Task 3</title>
+</head>
+<body>
+<main>
+    <h1 style="color: red; text-align: center">Task 2</h1>
+    <table border="2px" width="100%" style="text-align: center">
+        <thead>
+        <tr>
+            <td>
+                <h2>Hello world</h2>
+                <h2>World Hello</h2>
+            </td>
+            <td><img src="images/img.png" width="300" height="300"></td>
+            <td>
+                <h2>This is a frame</h2>
+                <iframe src="https://en.wikipedia.org/wiki/FC_Barcelona_2%E2%80%938_FC_Bayern_Munich" width="700" height="400"></iframe>
+            </td>
+            <td rowspan="2">
+                <video src="./images/VID.mp4" poster="images/html.png" controls></video>
+            </td>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="3">
+                <audio controls src="images/تعبان ي كابتن.mp3"></audio>
+            </td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+<form>
+    <label for="fname">
+        First name
+    </label>
+    <input type="text" id="fname" placeholder="enter your first name"><br><br>
+    <label for="secondname">Last name </label>
+    <input type="text" id="secondname" placeholder="enter your second name"><br><br>
+    <label for="pass">Password </label>
+    <input type="text" id="pass" placeholder="enter your password"><br><br>
+    <label for="password2">Password again </label>
+    <input type="text" id="password2" placeholder="repeat your password"><br><br>
+    <label for="file">Choose file </label>
+    <input type="file" id="file" placeholder="choose file"><br><br>
+</form>
+    <BR>
+    <fieldset>
+        <legend>Gender : </legend>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label>
+        <br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+    </fieldset>
+<br>
+    <br>
+    <label for="faculty">choose faculty</label>
+    <select name="faculty" id="faculty">
+        <option value="cs">computer science</option>
+        <option value="eng">engineering</option>
+        <option value="sci">science</option>
+    </select>
+<br>
+    <br>
+    <fieldset>
+        <legend>interests</legend>
+        <input type="checkbox" name="interest" id="foot">
+        <label for="foot">football</label><br>
+        <input type="checkbox" name="interest" id="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" name="interest" id="basket">
+        <label for="basket">basketball</label><br>
+    </fieldset>
+    <br>
+    <br>
+    <label for="about">About me</label>
+    <textarea name="about" id="about"></textarea>
+    <br>
+    <br>
+    <button type="submit" onclick="window.location.href='./thankyou.html'">Submit</button>
+    <button type="reset">Reset</button>
+</main>
+</body>
+</html>
